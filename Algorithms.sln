@@ -6,22 +6,49 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindingMinMaxInArray", "FindingMinMaxInArray.csproj", "{A353F9DA-0444-4545-92F9-16D1ECA8F151}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "..\BubbleSort\BubbleSort.csproj", "{20DD3C51-C4FB-423A-81C7-7CDB9148462A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A353F9DA-0444-4545-92F9-16D1ECA8F151} = {A353F9DA-0444-4545-92F9-16D1ECA8F151}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImprovedBubbleSort", "..\ImprovedBubbleSort\ImprovedBubbleSort.csproj", "{C29294C5-0CF3-4C47-8B29-FB9627620487}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A353F9DA-0444-4545-92F9-16D1ECA8F151} = {A353F9DA-0444-4545-92F9-16D1ECA8F151}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertSort", "..\InsertSort\InsertSort.csproj", "{D8D8B3CE-89DB-4064-B2F7-38618465505F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A353F9DA-0444-4545-92F9-16D1ECA8F151} = {A353F9DA-0444-4545-92F9-16D1ECA8F151}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionSort", "..\SelectionSort\SelectionSort.csproj", "{48E67F52-F238-4C7B-97E3-7C7EA076E0D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A353F9DA-0444-4545-92F9-16D1ECA8F151} = {A353F9DA-0444-4545-92F9-16D1ECA8F151}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequentialSearch", "..\SequentialSearch\SequentialSearch.csproj", "{9F0B1836-E5ED-4D81-B7B1-931EFE878E0F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A353F9DA-0444-4545-92F9-16D1ECA8F151} = {A353F9DA-0444-4545-92F9-16D1ECA8F151}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "..\BinarySearch\BinarySearch.csproj", "{8BAB40E4-4C0C-4AA8-935A-324DF5783ECC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A353F9DA-0444-4545-92F9-16D1ECA8F151} = {A353F9DA-0444-4545-92F9-16D1ECA8F151}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse", "..\Reverse\Reverse.csproj", "{29EBD15F-8932-4676-A050-8E7A74745D2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse", "..\Reverse\Reverse.csproj", "{29EBD15F-8932-4676-A050-8E7A74745D2D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A353F9DA-0444-4545-92F9-16D1ECA8F151} = {A353F9DA-0444-4545-92F9-16D1ECA8F151}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "..\Factorial\Factorial.csproj", "{D92EE821-8FC3-4240-999D-E16BA4BAB2EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "..\Factorial\Factorial.csproj", "{D92EE821-8FC3-4240-999D-E16BA4BAB2EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A353F9DA-0444-4545-92F9-16D1ECA8F151} = {A353F9DA-0444-4545-92F9-16D1ECA8F151}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonachi", "..\Fibonachi\Fibonachi.csproj", "{E437DAB5-FEF0-4948-90C8-BF3478460CB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonachi", "..\Fibonachi\Fibonachi.csproj", "{E437DAB5-FEF0-4948-90C8-BF3478460CB3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A353F9DA-0444-4545-92F9-16D1ECA8F151} = {A353F9DA-0444-4545-92F9-16D1ECA8F151}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
